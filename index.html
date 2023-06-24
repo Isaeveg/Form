@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <div class="container">
+      <label class="forms">
+        <span class="forms_title">Name</span>
+        <input
+          class="forms_input"
+          type="text"
+          name="name"
+          placeholder="Your name"
+        />
+      </label>
+
+      <label class="forms">
+        <span class="forms_title">Password</span>
+        <input
+          class="forms_input"
+          type="password"
+          name="password"
+          placeholder="Your password"
+        />
+      </label>
+
+      <label class="forms">
+        <span class="forms_title">Bio</span>
+        <textarea
+          class="forms_input _textarea"
+          type="text"
+          name="name"
+          placeholder="Your bio"
+        ></textarea>
+      </label>
+
+      <label class="forms">
+        <span class="forms_title">Gender</span>
+        <select class="forms_input">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </label>
+
+      <label class="checkbox">
+        <input class="checkbox_input" type="checkbox" name="text" />
+        <div class="checkbox_body">
+          <span class="checkbox_svg">
+            <span class="checkmark"></span>
+          </span>
+          <span class="checkbox_text">Text</span>
+        </div>
+      </label>
+
+      <label class="radiobutton">
+        <span class="forms_title">Radio Buttons</span>
+        <label><input class="radio_input" type="radio" name="text" /></label>
+        <label><input class="radio_input" type="radio" name="text" /></label>
+        <label
+          ><input class="radio_input" type="radio" name="text" disabled
+        /></label>
+      </label>
+      <label class="form_switch">
+        <span class="forms_title">Switch</span>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider"></span> </label
+      ></label>
+    </div>
+  </body>
+</html>
